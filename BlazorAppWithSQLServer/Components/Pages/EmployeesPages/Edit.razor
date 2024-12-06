@@ -1,0 +1,109 @@
+﻿@page "/employees/edit"
+@using Microsoft.EntityFrameworkCore
+@using BlazorAppWithSQLServer.Models
+@inject IDbContextFactory<BlazorAppWithSQLServer.Data.BlazorAppWithSQLServerContext> DbFactory
+@inject NavigationManager NavigationManager
+@using MudBlazor
+<PageTitle>Edit</PageTitle>
+
+
+<h2>Edit employee details</h2>
+<hr />
+@if (Employees is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="Employees" OnValidSubmit="UpdateEmployees" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary role="alert"/>
+                <input type="hidden" name="Employees.Id" value="@Employees.Id" />
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <InputText id="name" @bind-Value="Employees.Name" class="form-control" />
+                    <ValidationMessage For="() => Employees.Name" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="designation" class="form-label">Designation:</label>
+                    <InputText id="designation" @bind-Value="Employees.Designation" class="form-control" />
+                    <ValidationMessage For="() => Employees.Designation" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="salary" class="form-label">Salary:</label>
+                    <InputNumber id="salary" @bind-Value="Employees.Salary" class="form-control" />
+                    <ValidationMessage For="() => Employees.Salary" class="text-danger" />
+                </div>
+                
+
+                <MudStack Row="true">
+                    <button type="submit">
+                        <MudChip Text="green" Color="Color.Success" Value="@Color.Success">
+                            <MudIcon Icon="@Icons.Material.Filled.Save" Title="Add" Size="Size.Small" Class="mr-1" />
+                            Save
+                        </MudChip>
+                    </button>
+                    <a href="/employees">
+                        <MudChip Text="green" Color="Color.Dark" Value="@Color.Info">
+                            <MudIcon Icon="@Icons.Material.Filled.ArrowBack" Title="Back" />
+                            Back to List
+                        </MudChip>
+                    </a>
+            </MudStack>
+            </EditForm>
+        </div>
+    </div>
+}
+
+@code {
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    private Employees? Employees { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Employees ??= await context.Employees.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (Employees is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more information, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task UpdateEmployees()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(Employees!).State = EntityState.Modified;
+
+        try
+        {
+            await context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!EmployeesExists(Employees!.Id))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/employees");
+    }
+
+    private bool EmployeesExists(int id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Employees.Any(e => e.Id == id);
+    }
+}

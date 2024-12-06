@@ -1,0 +1,85 @@
+﻿@inherits LayoutComponentBase
+@using MudBlazor
+@* Required *@
+<MudThemeProvider />
+<MudPopoverProvider />
+
+@* Needed for dialogs *@
+<MudDialogProvider />
+
+@* Needed for snackbars *@
+<MudSnackbarProvider />
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        
+        <MudAppBar Color="Color.Transparent" Fixed="false" Elevation="25">
+            <MudText>
+                Employees Management
+            </MudText>
+
+            <MudSpacer />
+            <MudStack Row="true">
+                <MudText Class="mt-2">
+                    Welcome, Washim
+                </MudText>
+                <MudMenu>
+                    <ActivatorContent>
+                        <MudAvatar>
+                            <MudImage Src="images/washim.jpg" />
+                        </MudAvatar>
+                    </ActivatorContent>
+                    <ChildContent>
+                        <MudMenuItem OnClick="GoToProfile">Profile</MudMenuItem>
+                        <MudMenuItem OnClick="GoToTheme">Theme</MudMenuItem>
+                        <MudMenuItem OnClick="GoToUsage">Usage</MudMenuItem>
+                        <MudMenuItem OnClick="SignOut">Sign Out</MudMenuItem>
+                    </ChildContent>
+                </MudMenu>
+            </MudStack>
+        </MudAppBar>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+@code {
+    // Profile navigation
+    private void GoToProfile()
+    {
+        Console.WriteLine("Profile clicked");
+        // You can add logic to navigate to the profile page
+    }
+
+    // Theme navigation
+    private void GoToTheme()
+    {
+        Console.WriteLine("Theme clicked");
+        // Add theme switch logic here if needed
+    }
+
+    // Usage details
+    private void GoToUsage()
+    {
+        Console.WriteLine("Usage clicked");
+        // Add usage details or logic here
+    }
+
+    // Sign out logic
+    private void SignOut()
+    {
+        Console.WriteLine("Sign Out clicked");
+        // Add your sign out logic here
+    }
+}

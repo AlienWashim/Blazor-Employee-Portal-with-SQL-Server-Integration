@@ -1,0 +1,64 @@
+﻿@page "/employees/details"
+@using Microsoft.EntityFrameworkCore
+@using BlazorAppWithSQLServer.Models
+@inject IDbContextFactory<BlazorAppWithSQLServer.Data.BlazorAppWithSQLServerContext> DbFactory
+@inject NavigationManager NavigationManager
+@using MudBlazor
+<PageTitle>Employee Details</PageTitle>
+
+
+<div>
+    <h2>Employees Details</h2>
+    <hr />
+    @if (employees is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Name</dt>
+            <dd class="col-sm-10">@employees.Name</dd>
+            <dt class="col-sm-2">Designation</dt>
+            <dd class="col-sm-10">@employees.Designation</dd>
+            <dt class="col-sm-2">Salary</dt>
+            <dd class="col-sm-10">@employees.Salary</dd>
+        </dl>
+        <div>
+            @* <a href="@($"/employees/edit?id={employees.Id}")">Edit</a> |
+            <a href="@($"/employees")">Back to List</a> *@
+
+            <MudStack Row="true">
+                <a href="@($"/employees/edit?id={employees.Id}")">
+                    <MudChip  Text="green" Color="Color.Success" Value="@Color.Primary">
+                        <MudIcon Icon="@Icons.Material.Filled.Edit" Title="Edit" Class="mr-1" />
+                        Edit
+                    </MudChip>
+                </a>
+                <a href="/employees">
+                    <MudChip Text="green" Color="Color.Dark" Value="@Color.Info">
+                        <MudIcon Icon="@Icons.Material.Filled.ArrowBack" Title="Back" />
+                        Back to List
+                    </MudChip>
+                </a>
+            </MudStack>
+        </div>
+    }
+</div>
+
+@code {
+    private Employees? employees;
+
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        employees = await context.Employees.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (employees is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

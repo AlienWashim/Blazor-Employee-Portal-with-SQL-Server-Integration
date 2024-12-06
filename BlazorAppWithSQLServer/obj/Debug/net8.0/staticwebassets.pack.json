@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppWithSQLServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorAppWithSQLServer.j8ibj1ksor.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\images\\washim.jpg",
+      "PackagePath": "staticwebassets\\images\\washim.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppWithSQLServer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppWithSQLServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorAppWithSQLServer.props",
+      "PackagePath": "build\\BlazorAppWithSQLServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAppWithSQLServer.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppWithSQLServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorAppWithSQLServer.props",
+      "PackagePath": "buildTransitive\\BlazorAppWithSQLServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

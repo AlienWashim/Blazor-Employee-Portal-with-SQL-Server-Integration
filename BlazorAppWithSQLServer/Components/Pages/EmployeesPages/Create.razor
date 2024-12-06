@@ -1,0 +1,62 @@
+﻿@page "/employees/create"
+@using Microsoft.EntityFrameworkCore
+@using BlazorAppWithSQLServer.Models
+@inject IDbContextFactory<BlazorAppWithSQLServer.Data.BlazorAppWithSQLServerContext> DbFactory
+@inject NavigationManager NavigationManager
+@using MudBlazor
+<PageTitle>Create</PageTitle>
+
+<h2>Enter new employee's information</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Employees" OnValidSubmit="AddEmployees" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label> 
+                <InputText id="name" @bind-Value="Employees.Name" class="form-control" /> 
+                <ValidationMessage For="() => Employees.Name" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="designation" class="form-label">Designation:</label> 
+                <InputText id="designation" @bind-Value="Employees.Designation" class="form-control" /> 
+                <ValidationMessage For="() => Employees.Designation" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="salary" class="form-label">Salary:</label> 
+                <InputNumber id="salary" @bind-Value="Employees.Salary" class="form-control" /> 
+                <ValidationMessage For="() => Employees.Salary" class="text-danger" /> 
+            </div>        
+
+            <MudStack Row="true">
+                <button type="submit">
+                    <MudChip Text="green" Color="Color.Success" Value="@Color.Success">
+                        <MudIcon Icon="@Icons.Material.Filled.Save" Title="Save" Class="mr-1"/>
+                        Save
+                    </MudChip>
+                </button>
+                <a href="/employees">
+                    <MudChip Text="green" Color="Color.Dark" Value="@Color.Info">
+                        <MudIcon Icon="@Icons.Material.Filled.ArrowBack" Title="Back" />
+                         Back to List
+                    </MudChip>
+                </a>
+            </MudStack>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Employees Employees { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddEmployees()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Employees.Add(Employees);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/employees");
+    }
+}

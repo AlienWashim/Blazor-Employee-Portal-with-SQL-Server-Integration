@@ -1,0 +1,983 @@
+{
+  "Version": 1,
+  "Hash": "WUAYuFcODkDSCHq/rTlHbn3+bVw0C8tw9Q74Mz1zGLM=",
+  "Source": "BlazorAppWithSQLServer",
+  "BasePath": "_content/BlazorAppWithSQLServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlazorAppWithSQLServer\\wwwroot",
+      "Source": "BlazorAppWithSQLServer",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "25o87uqmvr",
+      "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eu7w3d5g1a",
+      "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhumzvqd1g",
+      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnojub5shy",
+      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppWithSQLServer.styles.css",
+      "SourceId": "BlazorAppWithSQLServer",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "RelativePath": "BlazorAppWithSQLServer#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "wvbd2j9ele",
+      "Integrity": "lAR9mTqyEw/BsK4XGZeoZFs6l+krpqABm7iEi2CWjLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppWithSQLServer.styles.css"
+    },
+    {
+      "Identity": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppWithSQLServer.bundle.scp.css",
+      "SourceId": "BlazorAppWithSQLServer",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "RelativePath": "BlazorAppWithSQLServer#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "j8ibj1ksor",
+      "Integrity": "7fcFHxFNMajGCEth3rln+oSrEX2WYz9C0KvsOVFrD6I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppWithSQLServer.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\app.css",
+      "SourceId": "BlazorAppWithSQLServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "BlazorAppWithSQLServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "BlazorAppWithSQLServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\favicon.png",
+      "SourceId": "BlazorAppWithSQLServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\images\\washim.jpg",
+      "SourceId": "BlazorAppWithSQLServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\",
+      "BasePath": "_content/BlazorAppWithSQLServer",
+      "RelativePath": "images/washim#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aetazjmo0y",
+      "Integrity": "UkLMWy/mwBxvUJx7HBCT18cwA0btu9pk+VDyJl1f2gk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\washim.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:57:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\BJIT\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\BJIT\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "BlazorAppWithSQLServer.bundle.scp.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppWithSQLServer.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fcFHxFNMajGCEth3rln+oSrEX2WYz9C0KvsOVFrD6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:56:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fcFHxFNMajGCEth3rln+oSrEX2WYz9C0KvsOVFrD6I="
+        }
+      ]
+    },
+    {
+      "Route": "BlazorAppWithSQLServer.j8ibj1ksor.bundle.scp.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppWithSQLServer.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7fcFHxFNMajGCEth3rln+oSrEX2WYz9C0KvsOVFrD6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:56:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8ibj1ksor"
+        },
+        {
+          "Name": "label",
+          "Value": "BlazorAppWithSQLServer.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7fcFHxFNMajGCEth3rln+oSrEX2WYz9C0KvsOVFrD6I="
+        }
+      ]
+    },
+    {
+      "Route": "BlazorAppWithSQLServer.styles.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppWithSQLServer.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lAR9mTqyEw/BsK4XGZeoZFs6l+krpqABm7iEi2CWjLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:57:05 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lAR9mTqyEw/BsK4XGZeoZFs6l+krpqABm7iEi2CWjLg="
+        }
+      ]
+    },
+    {
+      "Route": "BlazorAppWithSQLServer.wvbd2j9ele.styles.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppWithSQLServer.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lAR9mTqyEw/BsK4XGZeoZFs6l+krpqABm7iEi2CWjLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:57:05 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wvbd2j9ele"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lAR9mTqyEw/BsK4XGZeoZFs6l+krpqABm7iEi2CWjLg="
+        },
+        {
+          "Name": "label",
+          "Value": "BlazorAppWithSQLServer.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 04:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/washim.aetazjmo0y.jpg",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\images\\washim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UkLMWy/mwBxvUJx7HBCT18cwA0btu9pk+VDyJl1f2gk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 09:25:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aetazjmo0y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/washim.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UkLMWy/mwBxvUJx7HBCT18cwA0btu9pk+VDyJl1f2gk="
+        }
+      ]
+    },
+    {
+      "Route": "images/washim.jpg",
+      "AssetFile": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\wwwroot\\images\\washim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UkLMWy/mwBxvUJx7HBCT18cwA0btu9pk+VDyJl1f2gk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 09:25:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UkLMWy/mwBxvUJx7HBCT18cwA0btu9pk+VDyJl1f2gk="
+        }
+      ]
+    }
+  ]
+}

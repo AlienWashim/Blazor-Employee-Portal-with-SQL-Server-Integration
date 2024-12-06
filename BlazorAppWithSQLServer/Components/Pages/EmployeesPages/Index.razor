@@ -1,0 +1,62 @@
+﻿@page "/employees"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using BlazorAppWithSQLServer.Models
+@using BlazorAppWithSQLServer.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<BlazorAppWithSQLServer.Data.BlazorAppWithSQLServerContext> DbFactory
+@using MudBlazor
+<PageTitle>Employees List</PageTitle>
+
+<h3>Employees List</h3>
+
+<p>
+    <MudButton href="employees/create" title="Add New Employee" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary">Add New Employee</MudButton>
+</p>
+
+<MudTable Items="context.Employees" Hover="true" Breakpoint="Breakpoint.Sm" Loading="true" LoadingProgressColor="Color.Info">
+    <HeaderContent>
+        <MudTh>ID</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh>Designation</MudTh>
+        <MudTh>Salary</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd>@context.Id</MudTd>
+        <MudTd>@context.Name</MudTd>
+        <MudTd>@context.Designation</MudTd>
+        <MudTd>@context.Salary</MudTd>
+        <MudTd>
+            <MudLink Href="@($"employees/edit?id={context.Id}")">
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" StartIcon="@Icons.Material.Rounded.Edit">
+                    Edit
+                </MudButton>
+            </MudLink> |
+            <MudLink Href="@($"employees/details?id={context.Id}")">
+                <MudButton Variant="Variant.Filled" Color="Color.Warning" StartIcon="@Icons.Material.Rounded.RemoveRedEye">
+                    View
+                </MudButton>
+            </MudLink> |
+            <MudLink Href="@($"employees/delete?id={context.Id}")">
+                <MudButton Variant="Variant.Filled" Color="Color.Error" StartIcon="@Icons.Material.Rounded.Delete">
+                    Delete
+                </MudButton>
+            </MudLink>
+        </MudTd>
+    </RowTemplate>
+</MudTable>
+
+
+
+
+@code {
+    private BlazorAppWithSQLServerContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

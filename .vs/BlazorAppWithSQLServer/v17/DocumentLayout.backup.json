@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\pages\\employeespages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\pages\\employeespages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\pages\\employeespages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\pages\\employeespages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\pages\\employeespages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\pages\\employeespages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\pages\\employeespages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\pages\\employeespages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|d:\\visual studio projects\\blazorappwithsqlserver\\blazorappwithsqlserver\\components\\pages\\employeespages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246D9CB8-D410-433F-B363-C38456AAD7C8}|BlazorAppWithSQLServer\\BlazorAppWithSQLServer.csproj|solutionrelative:blazorappwithsqlserver\\components\\pages\\employeespages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\App.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\App.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\App.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T11:14:16.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Models\\Employees.cs",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Models\\Employees.cs",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Models\\Employees.cs",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Models\\Employees.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA3wA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:54:38.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Delete.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Delete.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Delete.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Delete.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:55:10.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Details.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Details.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Details.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Details.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:52:50.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Edit.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Edit.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Edit.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Edit.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACsAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:50:43.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Create.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Create.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Create.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Create.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:45:19.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Index.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Index.razor*",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Pages\\EmployeesPages\\Index.razor*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:08:13.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:03:40.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T05:59:31.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorAppWithSQLServer\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Visual Studio Projects\\BlazorAppWithSQLServer\\BlazorAppWithSQLServer\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorAppWithSQLServer\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T05:19:29.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

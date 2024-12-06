@@ -1,0 +1,93 @@
+﻿@page "/"
+@using Microsoft.EntityFrameworkCore
+@using BlazorAppWithSQLServer.Models
+@using BlazorAppWithSQLServer.Data
+@inject IDbContextFactory<BlazorAppWithSQLServer.Data.BlazorAppWithSQLServerContext> DbFactory
+@using MudBlazor
+
+<PageTitle>Home</PageTitle>
+
+<h3>Employee Overview</h3>
+
+<!-- MudCard for Total Employees -->
+<MudCard Class="mb-2">
+    <MudCardContent>
+        @* <MudText Typo="Typo.h5">Total Employees: @totalEmployees</MudText> *@
+        <MudStack Row="true">
+            <MudText Typo="Typo.h6" Color="Color.Primary">Total Employees:</MudText>
+            <MudAvatar Color="Color.Info" Variant="Variant.Outlined"> @totalEmployees</MudAvatar>
+        </MudStack>
+    </MudCardContent>
+</MudCard>
+
+<!-- MudTimeline for Employee Details -->
+<MudGrid Justify="Justify.Center">
+    <MudItem xs="12" sm="10" md="8">
+        <MudTimeline TimelinePosition="TimelinePosition.Start" Modifiers="@Modifiers">
+            @foreach (var employee in employees)
+            {
+                <MudTimelineItem Size="Size.Medium" Color="Color.Info" Elevation="@(Outlined ? 0 : 25)">
+                    <MudCard Outlined="@Outlined" Elevation="25">
+                        <MudCardContent>
+                            <MudGrid>
+                                <!-- Left side: Employee ID in circular dot -->
+                                
+                                @* <MudBadge Color="Color.Primary" Icon="@Icons.Material.Filled.Person" Shape="Shape.Circle">
+                                    @employee.Id
+                                </MudBadge> *@
+                                <MudBadge Content="@employee.Id" Color="Color.Secondary" Overlap="true" Class="mx-6 my-4">
+                                    <MudIcon Icon="@Icons.Material.Filled.Person" Color="Color.Primary" />
+                                </MudBadge>
+
+                                <!-- Right side: Employee Info -->
+                                <MudItem xs="12" sm="10">
+                                    <MudText Typo="Typo.h6" Color="Color.Primary">@employee.Name</MudText>
+                                    <MudText Typo="Typo.body2">Designation: @employee.Designation</MudText>
+                                    <MudText Typo="Typo.body2">Salary: @employee.Salary.ToString("C", new System.Globalization.CultureInfo("bn-BD"))</MudText>
+                                </MudItem>
+                            </MudGrid>
+                        </MudCardContent>
+                    </MudCard>
+                </MudTimelineItem>
+            }
+        </MudTimeline>
+    </MudItem>
+</MudGrid>
+
+@code {
+    private BlazorAppWithSQLServerContext context = default!;
+    private List<Employees> employees = new List<Employees>();
+    private int totalEmployees = 0;
+
+    // Bindings for MudSwitch controls
+    public bool Modifiers { get; set; } = true;
+    public bool Outlined { get; set; }
+
+    // Dispose of the DbContext properly
+    public async ValueTask DisposeAsync()
+    {
+        if (context != null)
+        {
+            await context.DisposeAsync();
+        }
+    }
+
+    // OnInitializedAsync method to fetch data and populate the timeline and card
+    protected override async Task OnInitializedAsync()
+    {
+        // Create a new DbContext instance for this operation
+        context = DbFactory.CreateDbContext();
+
+        try
+        {
+            // Fetch employee data from the database asynchronously
+            employees = await context.Employees.ToListAsync();
+            totalEmployees = employees.Count; // Get the total number of employees
+        }
+        catch (Exception ex)
+        {
+            // Handle any exceptions (like database connectivity issues) here
+            Console.WriteLine("Error fetching data: " + ex.Message);
+        }
+    }
+}
